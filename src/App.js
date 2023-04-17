@@ -42,7 +42,7 @@ const updateCartQuantity=(bookcartitem,cartquantity) => {
     console.log(bookcartitem,cartquantity)
     setCart(cart.map(item => item.id === bookcartitem.id ? {...item,quantity: +cartquantity} : item))
 }
-// git init git add. git commit -m "first commit" git push )
+// git init git add. git commit -m "first commit" git push :)
 
 const removeItem = (bookcartitem) => {
   setCart(cart.filter(book => book.id !== bookcartitem.id ))
