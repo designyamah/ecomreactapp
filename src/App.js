@@ -53,12 +53,6 @@ const removeItem = (bookcartitem) => {
     console.log(cart)
   }, [cart])
 
-
-
-
-
-
-
   return (
      <Router>
       <>
