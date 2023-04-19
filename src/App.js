@@ -1,7 +1,7 @@
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
-import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Books from "./pages/Books";
 import BooksInfo from "./pages/BooksInfo";
 import { books } from "./data";
