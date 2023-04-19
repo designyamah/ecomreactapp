@@ -56,6 +56,13 @@ ul {
   display: flex;
 }
 
+@media(max-width:500px){
+  ul {
+    flex-direction: row-reverse;
+}
+}
+
+
 li {
   list-style-type: none;
 }
@@ -98,6 +105,12 @@ button:active {
   width: 160px;
 }
 
+@media(max-width:400px){
+  .logo {
+    width: 110px;
+}
+}
+
 .nav__container {
   width: 100%;
   max-width: 1200px;
@@ -110,7 +123,7 @@ button:active {
 
 .nav__link {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 27px;
   font-weight: bold;
   padding: 8px;
   color: #7342d6;
