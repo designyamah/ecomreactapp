@@ -26,7 +26,7 @@ function Nav({ cart }) {
               HOME
             </a> */}
             <Link to="/" className="nav__link">
-              Home
+              Homes
             </Link>
           </li>
           <li className="nav__list">
